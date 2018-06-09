@@ -1,4 +1,4 @@
-package com.chanct.archivesave.output;
+package com.test.archivesave.output;
 
 import io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient;
 import org.apache.avro.Schema;

@@ -1,21 +1,18 @@
-package com.chanct.archivesave;
+package com.test.archivesave;
 
-import com.chanct.archivesave.output.EsOutPut;
-import com.chanct.archivesave.output.HbaseOutPut;
-import com.chanct.archivesave.utils.FileUtils;
-import org.apache.avro.Schema;
+import com.test.archivesave.output.EsOutPut;
+import com.test.archivesave.output.HbaseOutPut;
+import com.test.archivesave.utils.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.VoidFunction;
 import org.apache.spark.broadcast.Broadcast;
-import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
 import java.io.InputStream;
 import java.io.Serializable;
-import java.lang.reflect.Method;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.sql.Timestamp;

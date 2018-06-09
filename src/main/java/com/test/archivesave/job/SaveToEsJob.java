@@ -1,11 +1,10 @@
-package com.chanct.archivesave.job;
+package com.test.archivesave.job;
 
-import com.chanct.archivesave.constant.Constants;
-import com.chanct.archivesave.output.EsOutPut;
+import com.test.archivesave.constant.Constants;
+import com.test.archivesave.output.EsOutPut;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.VoidFunction;
-import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import scala.Tuple3;

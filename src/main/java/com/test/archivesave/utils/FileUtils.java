@@ -1,4 +1,4 @@
-package com.chanct.archivesave.utils;
+package com.test.archivesave.utils;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;

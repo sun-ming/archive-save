@@ -1,4 +1,4 @@
-package com.chanct.archivesave.job;
+package com.test.archivesave.job;
 
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.SparkSession;

@@ -1,4 +1,4 @@
-package com.chanct.archivesave.output;
+package com.test.archivesave.output;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;

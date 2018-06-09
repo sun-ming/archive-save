@@ -1,4 +1,4 @@
-package com.chanct.archivesave.constant;
+package com.test.archivesave.constant;
 
 import scala.Tuple3;
 

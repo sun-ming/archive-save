@@ -1,7 +1,7 @@
-package com.chanct.archivesave.job;
+package com.test.archivesave.job;
 
-import com.chanct.archivesave.constant.Constants;
-import com.chanct.archivesave.output.HbaseOutPut;
+import com.test.archivesave.constant.Constants;
+import com.test.archivesave.output.HbaseOutPut;
 import io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.rest.exceptions.RestClientException;
 import org.apache.avro.Schema;
